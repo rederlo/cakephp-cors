@@ -33,3 +33,5 @@ composer.phar
 /app/Config/database.php
 /vendors/*
 
+/.idea/*
+
