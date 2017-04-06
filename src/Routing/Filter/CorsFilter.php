@@ -1,6 +1,6 @@
 <?php
 
-namespace Cors\Routing\Filter;
+namespace rederlo\Cors\Routing\Filter;
 /**
  * Created by PhpStorm.
  * User: Rodrigo
