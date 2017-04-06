@@ -1,6 +1,6 @@
 <?php
 
-namespace rederlo\Cors\Routing\Filter;
+namespace Cors\Routing\Filter;
 /**
  * Created by PhpStorm.
  * User: Rodrigo
@@ -10,7 +10,7 @@ namespace rederlo\Cors\Routing\Filter;
 use Cake\Event\Event;
 use Cake\Routing\DispatcherFilter;
 
-class RestFilter extends DispatcherFilter {
+class CorsFilter extends DispatcherFilter {
 
     public function beforeDispatch(Event $event) {
         $request = $event->data['request'];
